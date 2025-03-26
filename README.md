@@ -56,3 +56,121 @@ Happy Coding! 💻✨
         </div>
         </body>
 </html>
+
+
+
+style.css
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background: url(https://cdn.pixabay.com/photo/2017/04/29/05/24/mountains-2270056_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 150vh;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  color: #eee;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17px;
+}
+
+div {
+  width: 800px;
+  height: 550px;
+  background: rgba(0, 0, 0, .6);
+  margin: 50px auto;
+}
+
+div p {
+  font-size: 17px;
+  padding: 30px;
+}
+
+input[name='go'] {
+  margin-left: 60px;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+}
+
+span {
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+input[name='come'] {
+  width: 80%;
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: 0;
+}
+
+.cal {
+  position: relative;
+}
+
+.cal:before {
+  content: "\f073";
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 11px;
+  left: 349px;
+  z-index: 1;
+  color: #000;
+  font-size: 14px;
+}
+
+select {
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  margin: 20px 0 0 38px;
+  padding: 5px;
+}
+
+input[type='submit'] {
+  width: 80%;
+  margin: 30px auto;
+  display: block;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  height: 35px;
+  background: #27aa9d;
+  color: #FFF;
+  transition: background-color 0.3s;
+}
+
+input[type='submit']:hover {
+  background-color: #219a8c;
+}
+
+p:last-child {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.opy {
+  font-size: 20px;
+  background: red;
+}
